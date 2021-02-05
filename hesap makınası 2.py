@@ -21,7 +21,7 @@ eger degilse tercih == '-':
    yaz(A,"-",B,"=", cıkar(A,B))
  eger degilse tercih == '*':
    yaz(A,"*",B,"=", carp(A,B))
-eger degılse tercih == '/':
+eger degilse tercih == '/':
    yaz(A,"/",B,"=", bol(A,B))
-degılse:
+degilse:
    yaz("Gecersız deger")
