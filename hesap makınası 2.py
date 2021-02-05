@@ -1,27 +1,27 @@
-def add(a, b):
+def topla(a, b):
    return a + b
-def subtract(a, b):
+defcıkar(a, b):
    return a - b
-def multiply(a, b):
+def carp(a, b):
    return a * b
-def divide(a, b):
+def bol(a, b):
  return a / b
 print("İşlemi seçiniz.")
-print("+")
-print("-")
-print("*")
-print("/")
-# User input
-choice = input("Islemı onayla:")
+yaz("+")
+yaz("-")
+yaz("*")
+yaz("/")
+# kullanıcı gırısı
+tercih = input("Islemı onayla:")
 A = int(input("Bırıncı rakam: "))
 B = int(input("Ikıncı rakam: "))
-if choice == '+':
-   print(A,"+",B,"=", add(A,B))
-elif choice == '-':
+yinele tercih == '+':
+   yaz(A,"+",B,"=", add(A,B))
+eger degilse tercih == '-':
    print(A,"-",B,"=", subtract(A,B))
-elif choice == '*':
-   print(A,"*",B,"=", multiply(A,B))
-elif choice == '/':
+ eger degilse tercih == '*':
+   yaz(A,"*",B,"=", multiply(A,B))
+eger degılse tercih == '/':
    print(A,"/",B,"=", divide(A,B))
-else:
-    print("Invalid input")
+degılse:
+   yaz("Gecersız deger")
