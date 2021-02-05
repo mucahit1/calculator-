@@ -1,6 +1,6 @@
 def topla(a, b):
    return a + b
-defcıkar(a, b):
+def cıkar(a, b):
    return a - b
 def carp(a, b):
    return a * b
@@ -16,12 +16,12 @@ tercih = input("Islemı onayla:")
 A = int(input("Bırıncı rakam: "))
 B = int(input("Ikıncı rakam: "))
 yinele tercih == '+':
-   yaz(A,"+",B,"=", add(A,B))
+   yaz(A,"+",B,"=", topla(A,B))
 eger degilse tercih == '-':
-   print(A,"-",B,"=", subtract(A,B))
+   print(A,"-",B,"=", cıkar(A,B))
  eger degilse tercih == '*':
-   yaz(A,"*",B,"=", multiply(A,B))
+   yaz(A,"*",B,"=", multiply carp(A,B))
 eger degılse tercih == '/':
-   print(A,"/",B,"=", divide(A,B))
+   print(A,"/",B,"=", bol(A,B))
 degılse:
    yaz("Gecersız deger")
