@@ -6,7 +6,7 @@ def carp(a, b):
    return a * b
 def bol(a, b):
  return a / b
-print("İşlemi seçiniz.")
+yaz("İşlemi seçiniz.")
 yaz("+")
 yaz("-")
 yaz("*")
