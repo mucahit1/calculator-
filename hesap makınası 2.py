@@ -18,7 +18,7 @@ B = int(input("Ikıncı rakam: "))
 yinele tercih == '+':
    yaz(A,"+",B,"=", topla(A,B))
 eger degilse tercih == '-':
-   print(A,"-",B,"=", cıkar(A,B))
+   yaz(A,"-",B,"=", cıkar(A,B))
  eger degilse tercih == '*':
    yaz(A,"*",B,"=", carp(A,B))
 eger degılse tercih == '/':
