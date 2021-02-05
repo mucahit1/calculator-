@@ -22,6 +22,6 @@ eger degilse tercih == '-':
  eger degilse tercih == '*':
    yaz(A,"*",B,"=", carp(A,B))
 eger degılse tercih == '/':
-   print(A,"/",B,"=", bol(A,B))
+   yaz(A,"/",B,"=", bol(A,B))
 degılse:
    yaz("Gecersız deger")
